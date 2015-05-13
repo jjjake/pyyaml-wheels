@@ -2,7 +2,6 @@ language:
 - objective-c
 env:
   global:
-  - BUILD_COMMIT='latest-tag'  # comment out to build version in submodule
   - LIBYAML_VERSION=0.1.5
   matrix:
   - VERSION=2.7.9
